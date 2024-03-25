@@ -1,4 +1,0 @@
-presidio_analyzer
-presidio_anonymizer
-streamlit
-unstructured[all-docs]

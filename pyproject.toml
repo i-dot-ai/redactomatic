@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "redactomatic"
+version = "0.1.0"
+description = "A Streamlit app for redacting documents with Presidio"
+authors = ["Liam Wilkinson <liam.wilkinson@cabinetoffice.gov.uk>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+unstructured = {extras = ["all-docs"], version = "^0.12.6"}
+presidio-analyzer = "^2.2.353"
+presidio-anonymizer = "2.2.351"
+streamlit = "^1.32.2"
+en_core_web_lg = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.1/en_core_web_lg-3.7.1-py3-none-any.whl"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
