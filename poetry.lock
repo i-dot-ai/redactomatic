@@ -1835,6 +1835,7 @@ description = "Nvidia JIT LTO Library"
 optional = false
 python-versions = ">=3"
 files = [
+    {file = "nvidia_nvjitlink_cu12-12.4.99-py3-none-manylinux2014_aarch64.whl", hash = "sha256:75d6498c96d9adb9435f2bbdbddb479805ddfb97b5c1b32395c694185c20ca57"},
     {file = "nvidia_nvjitlink_cu12-12.4.99-py3-none-manylinux2014_x86_64.whl", hash = "sha256:c6428836d20fe7e327191c175791d38570e10762edc588fb46749217cd444c74"},
     {file = "nvidia_nvjitlink_cu12-12.4.99-py3-none-win_amd64.whl", hash = "sha256:991905ffa2144cb603d8ca7962d75c35334ae82bf92820b6ba78157277da1ad2"},
 ]
@@ -2430,12 +2431,12 @@ transformers = ["spacy-huggingface-pipelines"]
 
 [[package]]
 name = "presidio-anonymizer"
-version = "2.2.351"
+version = "2.2.354"
 description = "Persidio Anonymizer package - replaces analyzed text with desired values."
 optional = false
 python-versions = ">=3.5"
 files = [
-    {file = "presidio_anonymizer-2.2.351-py3-none-any.whl", hash = "sha256:a898c38afcf01ac21aa7558702b8f22e378625854574df0b277c553bb3164f50"},
+    {file = "presidio_anonymizer-2.2.354-py3-none-any.whl", hash = "sha256:2b44bfedf376aa0c21f463581bede543a632c23ac6bc427a2e026c8e81ecfa67"},
 ]
 
 [package.dependencies]
@@ -4822,4 +4823,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.12"
-content-hash = "ccbaf6ce162d666103b1da771f228513e39a77741ede00470d1408dd07b130cd"
+content-hash = "8b6f348dd85970e27f07057705233b37214eca27f73ca680f07916f96e2ef2cb"
