@@ -1835,6 +1835,7 @@ description = "Nvidia JIT LTO Library"
 optional = false
 python-versions = ">=3"
 files = [
+    {file = "nvidia_nvjitlink_cu12-12.4.99-py3-none-manylinux2014_aarch64.whl", hash = "sha256:75d6498c96d9adb9435f2bbdbddb479805ddfb97b5c1b32395c694185c20ca57"},
     {file = "nvidia_nvjitlink_cu12-12.4.99-py3-none-manylinux2014_x86_64.whl", hash = "sha256:c6428836d20fe7e327191c175791d38570e10762edc588fb46749217cd444c74"},
     {file = "nvidia_nvjitlink_cu12-12.4.99-py3-none-win_amd64.whl", hash = "sha256:991905ffa2144cb603d8ca7962d75c35334ae82bf92820b6ba78157277da1ad2"},
 ]
@@ -2408,12 +2409,12 @@ murmurhash = ">=0.28.0,<1.1.0"
 
 [[package]]
 name = "presidio-analyzer"
-version = "2.2.353"
+version = "2.2.354"
 description = "Presidio analyzer package"
 optional = false
 python-versions = "*"
 files = [
-    {file = "presidio_analyzer-2.2.353-py3-none-any.whl", hash = "sha256:751e67e4a80b4806d4d13c5b9203276b29aba5687deed80c73455faae95da5f6"},
+    {file = "presidio_analyzer-2.2.354-py3-none-any.whl", hash = "sha256:685cfbea9bfeb770e407c39723fc840624c0aab1dd79e7ff6fd070696f1738fd"},
 ]
 
 [package.dependencies]
@@ -4822,4 +4823,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.12"
-content-hash = "ccbaf6ce162d666103b1da771f228513e39a77741ede00470d1408dd07b130cd"
+content-hash = "f664f639700356210e956cd4b709eef50c42a6b800c1e402f72fb0b6456d201b"
